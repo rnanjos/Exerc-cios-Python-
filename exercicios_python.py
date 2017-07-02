@@ -29,3 +29,15 @@ while n <= 10:
     soma = soma + x
     n = n + 1
 print("Média: %5.2f" %(soma/10))
+
+'''
+	Calcule o fatorial de um número inteiro 
+'''
+i = 1
+x = 1
+fat = int(input("Digite um numero"))
+while i <= fat:
+    x = x * i
+    i = i+ 1
+print("Fator(%d) = %d"%(fat, x)) 
+    
