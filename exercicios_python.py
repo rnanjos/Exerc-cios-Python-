@@ -8,3 +8,13 @@ while True:
         break
     soma = soma + x
 print ("Soma: %d" %soma)
+
+'''
+	Exercício de repetição - Imprimir apenas numeros pares
+
+'''
+x = 1
+while True:
+    if x % 2 == 0:
+        print(x)
+    x = x + 1
