@@ -52,3 +52,17 @@ while tabuada <= 10:
         print("%d x %d = %d" %(tabuada, n, tabuada * n))
         n = n + 1
     tabuada = tabuada + 1
+
+'''
+	Ler três números e mostrar o maior 
+'''
+n1 = int(input("Digite o primeiro número: "))
+n2 = int(input("Digite o segundo número: "))
+n3 = int(input("Digite o terceiro número: "))
+if n1 >= n2 and n1 >= n3:
+         print("%d é maior" %n1)
+elif n2 >= n1 and n2 >= n3:
+         print("%d é maior" %n2)
+else:
+     print("%d é maior" %n3)   
+         
