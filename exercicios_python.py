@@ -76,4 +76,8 @@ while i < 5:
     soma = soma + nota[i]
     i = i + 1;
 print(" A média é %5.2f" %(soma/5))
-    
+
+'''
+    Lista -  Programa que leia 5 números inteiros 
+'''
+
