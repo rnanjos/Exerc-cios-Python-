@@ -66,3 +66,14 @@ elif n2 >= n1 and n2 >= n3:
 else:
      print("%d é maior" %n3)   
          
+'''
+    Lista -  Calcule a média de 5 notas
+'''
+nota = [10, 8, 6, 5, 7.5]
+i = 0
+soma = 0
+while i < 5:
+    soma = soma + nota[i]
+    i = i + 1;
+print(" A média é %5.2f" %(soma/5))
+    
