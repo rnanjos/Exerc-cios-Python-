@@ -78,6 +78,44 @@ while i < 5:
 print(" A média é %5.2f" %(soma/5))
 
 '''
-    Lista -  Programa que leia 5 números inteiros 
+    Lista -  Programa que lê 5 números inteiros 
 '''
+i = 0
+nota = []
+while i < 5:
+    x = int(input("Digite um numero: "))
+    nota.append(x)
+    i += 1
+print(nota)
+
+'''
+    Listas -  Programa que lê um vetor de dez números reais e mostre-os na ordem inversa
+'''
+i = 0
+numero = []
+while i < 10:
+    x = int(input("Digite um numero: "))
+    numero.append(x)
+    i += 1
+i = 9
+while i >= 0:
+    print(numero[i])
+    i -= 1
+    
+'''
+	Lista - Programa que lê quatros notas e mostra a média na tela
+'''
+i = 1
+notas = []
+while i <= 4:
+    n = int(input("Digite a %dº nota: " %i))
+    notas.append(n)
+    i += 1
+soma = 0
+i = 0
+while i <= 3:
+    soma = soma + notas[i]
+    i += 1
+print("A média é %4.2f" %(soma/4))
+
 
