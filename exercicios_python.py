@@ -118,4 +118,20 @@ while i <= 3:
     i += 1
 print("A média é %4.2f" %(soma/4))
 
+'''
+    Programa que lê um vetor de 10 caracteres minúsculos, e diga quantas cosoantes foram lidas
+'''
+lista = []
+i = 1
+while i <= 10:
+    x = input( 'Letra: ')
+    lista.append(x)
+    i += 1
+i = 0
+cont = 0
+while i <= 9:
+    if lista[i] not in 'aeiou':
+        cont += 1
+    i += 1
+print("Foram lidos %d consoantes" %cont)
 
