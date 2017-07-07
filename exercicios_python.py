@@ -134,4 +134,12 @@ while i <= 9:
         cont += 1
     i += 1
 print("Foram lidos %d consoantes" %cont)
+'''
+    Verificar se uma palavra é palíndrome
+'''
+palavra = input('Palavra: ')
+if palavra == palavra[::-1]:
+    print('%s é palíndrome' %palavra)
+else:
+    print('%s não é palíndrome' %palavra)
 
